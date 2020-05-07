@@ -1,6 +1,6 @@
 {
     
-    "poolname": "My Cool Pool",
+    "poolname": "Raven Coin Pool",
     
     "devmode": false,
     "devmodePayMinimim": 0.25,
@@ -11,15 +11,13 @@
     "ipv4bits": 16,
     "ipv6bits": 16,
     
-    "poolwarningmsg": "WARNING: POOL IS DEFAULT CONFIGURATION! PLEASE ENSURE TO CHANGE CONFIGURATION!",
-    
-    "defaultCoin": "ravencoin",
+     "defaultCoin": "ravencoin",
     
     "poollogo": "/local/file/path/or_a_web_address.to.png",
     
     "discordtwitterfacebook": "Join our #mining channel on Discord: <a href='https://discord.gg/vzcbVNW' target='_blank'>https://discord.gg/vzcbVNW</a>",
     
-    "pagetitle": "My Cool Pool - 0% Fees Promo - Run by professionals",
+    "pagetitle": "Raven Coin Pool - 0% Fees Promo - Run by professionals",
     "pageauthor": "My Name Is...",
     "pagedesc": "A reliable, low fee, easy to use mining pool for cryptocurrency! No matter your experience with mining cryptocurrency, we make it easy! Get started mining today!",
     "pagekeywds": "GPU,CPU,Hash,Hashrate,Cryptocurrency,Crypto,Mining,Pool,Bitcoin,Raven,Ravencoin,Wavi,Wavicoin,Dixicoin,Dixi,QBic,QBicCoin,Easy,Simple,How,To",
@@ -31,7 +29,7 @@
 
     "logger" : {
         "level" : "debug",
-        "file" : "/root/logs/nomp_debug.log"
+        "file" : "/pool/rvn-kawpow-pool/logs/nomp_debug.log"
     },
 
     "cliHost": "127.0.0.1",
@@ -69,8 +67,8 @@
         "host": "0.0.0.0",
         "port": 80,
         "sslport": 443,
-        "sslkey": "/root/EASYNOMP/certs/privkey.pem",
-        "sslcert": "/root/EASYNOMP/certs/fullchain.pem",
+        "sslkey": "/pool/rvn-kawpow-pool/certs/privkey.pem",
+        "sslcert": "/pool/rvn-kawpow-pool/certs/fullchain.pem",
         "stratumHost": "192.168.0.200",
         "stats": {
             "updateInterval": 5,
