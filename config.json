@@ -65,7 +65,7 @@
         "sslenabled": false,
         "sslforced": false,
         "host": "0.0.0.0",
-        "port": 8080,
+        "port": 80,
         "sslport": 443,
         "sslkey": "/home/pool/rvn-kawpow-pool/certs/privkey.pem",
         "sslcert": "/home/pool/rvn-kawpow-pool/certs/fullchain.pem",
