@@ -90,7 +90,7 @@ Other helpfull commands.
 -------
 ### Configure Pool
 
-Change 192.168.0.200 to your IP or DNS in file config.json:
+Change "stratumHost": "192.168.0.200", to your IP or DNS in file config.json:
 
     cd ~/rnv-kawpow-pool
     nano config.json
