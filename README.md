@@ -60,9 +60,13 @@ https://www.youtube.com/watch?v=NOjPFZk4sp0
 
 Example output: RKopFydExeQXSZZiSTtg66sRAWvMzFReUj - it is the address of your pool, you need to remember it and specify it in the configuration files.
     
-    ./raven-cli getwalletinfo
+    ./raven-cli getaddressesbyaccount ""
     
 Information about pool wallet address.
+    
+    ./raven-cli getwalletinfo
+    
+Get more information.
 
     ./raven-cli getblockcount
     
