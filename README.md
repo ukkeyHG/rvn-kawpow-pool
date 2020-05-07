@@ -71,7 +71,7 @@ Get more information.
 
     ./raven-cli getblockcount
     
-Information about synchronization of blocks in the main chain. Everything should be fully synchronized before mining starts.
+Information about synchronization of blocks in the main chain.
 
     ./raven-cli help
 Other helpfull commands.
