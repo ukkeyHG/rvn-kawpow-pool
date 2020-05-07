@@ -30,6 +30,7 @@ https://www.youtube.com/watch?v=NOjPFZk4sp0
 -------
 ### Requirements
 ***NOTE:*** _These requirements will be installed in the install section!_<br />
+* Ubuntu Server 18.04.* LTS
 * Coin daemon
 * Node Version Manager
 * Node 8.1.4
@@ -78,6 +79,8 @@ Other helpfull commands.
 -------
 
 ### Install Pool
+
+    sudo apt install git
     cd ~
     git config --global http.https://gopkg.in.followRedirects true
     git clone https://github.com/notminerproduction/rvn-kawpow-pool.git
@@ -98,12 +101,12 @@ Other helpfull commands.
 ### Donates
 
 
-BTC: `18TmiWzbMLyf7MvQMcNWh3hUBVrxBgzrWi`
+BTC: `1NRXddRwZSXVQ8NBdgiwv5DsJn2bmHenu6`
 
-LTC: `LX1fUwLVcAaRXvP67ZcqUvjjteaKx1nAvL`
+LTC: `LcghtmAVSi94FHrn4xbbSd4nFChWy6QUng`
 
-ETH/ERC20: `0x52fD0B6847E1D3cEc5600359f24d671FdE2Bc65B`
+ETH: `0x85c5e7db222705da939174cf435d8836423a03e8`
 
-XMR: `4AVabKt1zGhUckqWC5DKtkcc49ChYFuSETzvDZFfVnUYYY5vC4CSZ9xYzmCWvx7ePYZ9YvxgYbYsLL1L9TfQy2hi5Awsc7d`
+ETC: `0xc8efe17161b98a5fd860e7e6e51d53083265d966`
 
 -------
