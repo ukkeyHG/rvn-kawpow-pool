@@ -82,7 +82,7 @@ Other helpfull commands.
 ### Install Pool
     cd /pool
     git config --global http.https://gopkg.in.followRedirects true
-    git clone https://github.com/notminerproduction/open-ethereum-pool.git
+    git clone https://github.com/notminerproduction/rvn-kawpow-pool.git
 
 -------
 ### Configure Pool
