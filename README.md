@@ -23,6 +23,9 @@ Highly Efficient mining pool for Raven coin kawpow algo!
 | [Stratum Pool](https://github.com/RavenCommunity/kawpow-stratum-pool) | https://github.com/RavenCommunity/kawpow-stratum-pool |
 | [Node Multihashing](https://github.com/EasyX-Community/node-multi-hashing) | https://github.com/EasyX-Community/node-multi-hashing |
 
+### Watch setup guide video on YouTube channel
+
+https://www.youtube.com/watch?v=NOjPFZk4sp0
 
 -------
 ### Requirements
@@ -77,13 +80,15 @@ Other helpfull commands.
 -------
 
 ### Install Pool
-
-Install instructions 
+    cd /pool
+    git config --global http.https://gopkg.in.followRedirects true
+    git clone https://github.com/notminerproduction/open-ethereum-pool.git
 
 -------
 ### Configure Pool
 
-Pool configuration instructions 
+    cd /pool
+    
 
 ### Donates
 
