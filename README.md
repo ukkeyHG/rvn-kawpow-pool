@@ -3,6 +3,18 @@
 ***Current Version: v1.1.4***
 
 -------
+### Screenshots
+#### Home<br />
+![Home](https://raw.githubusercontent.com/EasyX-Community/EasyNOMP/master/docs/screenshots/home.png)
+
+#### Pool Stats<br />
+![Pool Stats](https://raw.githubusercontent.com/EasyX-Community/EasyNOMP/master/docs/screenshots/poolstats.png)<br /><br />
+
+#### Miner Stats<br />
+![Miner Stats](https://raw.githubusercontent.com/EasyX-Community/EasyNOMP/master/docs/screenshots/minerstats.png)<br /><br />
+
+#### Block Explorer<br />
+![Block Explorer](https://raw.githubusercontent.com/EasyX-Community/EasyNOMP/master/docs/screenshots/blockexplorer.png)<br /><br />
 
 ***EasyNOMP pool is live, come mine PEXA @ [https://easyxpool.tk/](http://easyxpool.tk/)***<br />
 ***EasyNOMP development pool is live @ [https://dev.easyxpool.tk/](https://dev.easyxpool.tk/news)***<br /><br />
@@ -147,18 +159,6 @@ Changelog is in in the directory [docs/CHANGELOG.md](https://github.com/EasyX-Co
 | - | __Scrypt-Jane__ | submitblock not working tested with CacheCoin, Yacoin |
 
 -------
-### Screenshots
-#### Home<br />
-![Home](https://raw.githubusercontent.com/EasyX-Community/EasyNOMP/master/docs/screenshots/home.png)
-
-#### Pool Stats<br />
-![Pool Stats](https://raw.githubusercontent.com/EasyX-Community/EasyNOMP/master/docs/screenshots/poolstats.png)<br /><br />
-
-#### Miner Stats<br />
-![Miner Stats](https://raw.githubusercontent.com/EasyX-Community/EasyNOMP/master/docs/screenshots/minerstats.png)<br /><br />
-
-#### Block Explorer<br />
-![Block Explorer](https://raw.githubusercontent.com/EasyX-Community/EasyNOMP/master/docs/screenshots/blockexplorer.png)<br /><br />
 
 -------
 ### Credits
