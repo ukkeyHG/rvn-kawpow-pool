@@ -21,7 +21,7 @@
         "coinPrecision": 8,
         "daemon": {
             "host": "127.0.0.1",
-            "port": 17117,
+            "port": 8766,
             "user": "user1",
             "password": "pass1"
         }
@@ -64,7 +64,7 @@
     "daemons": [
         {
             "host": "127.0.0.1",
-            "port": 18766,
+            "port": 8766,
             "user": "user1",
             "password": "pass1"
         }
