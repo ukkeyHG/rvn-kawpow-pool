@@ -13,7 +13,7 @@
     
      "defaultCoin": "ravencoin",
     
-    "poollogo": "/local/file/path/or_a_web_address.to.png",
+    "poollogo": "https://zelcash.github.io/zeltrez.io/images/logos/Ravencoin.svg",
     
     "discordtwitterfacebook": "Join our #mining channel on Discord: <a href='https://discord.gg/vzcbVNW' target='_blank'>https://discord.gg/vzcbVNW</a>",
     
@@ -29,14 +29,14 @@
 
     "logger" : {
         "level" : "debug",
-        "file" : "/pool/rvn-kawpow-pool/logs/nomp_debug.log"
+        "file" : "/home/pool/rvn-kawpow-pool/logs/nomp_debug.log"
     },
 
     "cliHost": "127.0.0.1",
     "cliPort": 17117,
 
     "clustering": {
-        "enabled": true,
+        "enabled": false,
         "forks": "auto"
     },
 
