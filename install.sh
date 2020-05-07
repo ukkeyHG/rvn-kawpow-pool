@@ -26,15 +26,11 @@ sudo systemctl enable redis-server && sudo systemctl start redis-server && sudo 
 
 sudo rm -rf ~/.nvm
 sudo rm -rf ~/.npm
-sleep 3
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | sudo bash
-sleep 2
 source ~/.bashrc
 sudo chown -R $USER:$GROUP ~/.nvm
-sleep 3
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
-sleep 2
 nvm install v8.1.4
 nvm use v8.1.4
 npm update -g
