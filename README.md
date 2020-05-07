@@ -45,7 +45,6 @@ https://www.youtube.com/watch?v=NOjPFZk4sp0
     usermod -aG sudo pool
     su - pool
     sudo apt install wget
-    cd ~
     wget https://github.com/RavenProject/Ravencoin/releases/download/v4.1.0/raven-4.1.0.0-x86_64-linux-gnu.tar.gz
     tar -xf raven-4.1.0.0-x86_64-linux-gnu.tar.gz
     cd raven-4.1.0.0/bin
@@ -58,7 +57,7 @@ https://www.youtube.com/watch?v=NOjPFZk4sp0
     ./ravend
     ./raven-cli getnewaddress
 
-Example output: REHwpWw297keLvyNx1Gqa4QatrXhyg5SPu - it is the address of your pool, you need to remember it and specify it in the configuration files.
+Example output: RKopFydExeQXSZZiSTtg66sRAWvMzFReUj - it is the address of your pool, you need to remember it and specify it in the configuration files.
     
     ./raven-cli getwalletinfo
     
