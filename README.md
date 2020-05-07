@@ -60,7 +60,18 @@ Highly Efficient mining pool for Raven coin kawpow algo!
     echo "daemon=1" >> /root/.raven/raven.conf
     ./ravend
     ./raven-cli getaccountaddress ""
+
 Example output: RM8EnvWSBrNykMmo7E7Nco7noNMbAeAnmP
+!!!This will be the address of your pool's wallet. You need to remember it and specify it in the configuration files.
+
+    ./raven-cli getwalletinfo
+Information about pool wallet address.
+
+    ./raven-cli getblockcount
+Information about synchronization of blocks in the main chain. Everything should be fully synchronized before mining starts.
+
+    ./raven-cli help
+Other helpfull commands.
 
 ### Install Pool
 
