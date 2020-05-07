@@ -1,5 +1,5 @@
 # rvn-kawpow-pool
-Highly Efficient mining pool for Raven coin
+Highly Efficient mining pool for Raven coin kawpow algo!
 
 -------
 ### Screenshots
