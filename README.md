@@ -27,7 +27,7 @@ Highly Efficient mining pool for Raven coin kawpow algo!
 -------
 ### Requirements
 ***NOTE:*** _These requirements will be installed in the install section!_<br />
-* Coin daemon(s)
+* Coin daemon
 * Node Version Manager
 * Node 8.1.4
 * Process Manager 2 / pm2
@@ -35,18 +35,23 @@ Highly Efficient mining pool for Raven coin kawpow algo!
 * ntp
 
 -------
+
+### Install coin daemon
+
+Install instructions 
+
+-------
+
 ### Install Pool
 
-Install instructions are in the directory [docs/README.md](https://github.com/EasyX-Community/EasyNOMP/blob/master/docs/INSTALL.md)
+Install instructions 
 
 -------
 ### Configure Pool
 
-Pool configuration instructions are at the EasyNOMP Wiki: https://github.com/EasyX-Community/EasyNOMP/wiki
+Pool configuration instructions 
 
-### Plz Buy Me Some Coffee?
-
-This is my new Full-Time job and it pays nothing. I drink about 3 pots a day... I will love you forever!
+### Donates
 
 
 BTC: `18TmiWzbMLyf7MvQMcNWh3hUBVrxBgzrWi`
