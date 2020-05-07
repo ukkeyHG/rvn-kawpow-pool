@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# This is the EasyNOMP install script.
-echo "EasyNOMP install script."
+# This is the Pool install script.
+echo "Pool install script."
 echo "Please do NOT run as root, run as the pool user!"
 
 echo "Installing... Please wait!"
@@ -10,9 +10,8 @@ sleep 3
 
 sudo add-apt-repository -y ppa:bitcoin/bitcoin
 
-sudo apt-get update
-sudo apt-get upgrade -y
-sudo apt-get dist-upgrade -y
+sudo apt update
+sudo apt upgrade -y
 
 sudo apt-get install -y sudo git nano wget curl ntp build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev git npm nodejs nodejs-legacy libminiupnpc-dev redis-server software-properties-common fail2ban libdb4.8-dev libdb4.8++-dev
 
@@ -30,24 +29,19 @@ source ~/.bashrc
 
 nvm install v8.1.4
 nvm use v8.1.4
-npm update -g
+sudo npm update -g
 
-npm install -g pm2@latest
-npm install -g npm@latest
+sudo npm install -g pm2@latest
+sudo npm install -g npm@latest
 
-git clone https://github.com/EasyX-Community/EasyNOMP.git $(pwd)/EasyNOMP
+sudo npm install
+sudo npm update
+sudo npm audit fix
+sudo npm install sha3
 
-cd EasyNOMP
-
-npm install
-
-npm update
-npm audit fix
-
-./start-pool.sh
+#./start-pool.sh
 
 
 echo "Installation completed!"
-echo "Please resume installation at the EasyNOMP Wiki: https://github.com/EasyX-Community/EasyNOMP/wiki"
 
 exit 0
