@@ -1,4 +1,4 @@
-#!/bin/sh
+!/bin/sh
 
 # This is the Pool install script.
 echo "Pool install script."
@@ -8,8 +8,10 @@ echo "Installing... Please wait!"
 
 sleep 3
 
+sudo rm -rf /usr/lib/node_modules
 sudo apt remove --purge -y nodejs
 sudo rm /etc/apt/sources.list.d/nodesource.list*
+sudo apt update
 sudo add-apt-repository -y ppa:chris-lea/redis-server
 sudo add-apt-repository -y ppa:bitcoin/bitcoin
 curl -sL https://deb.nodesource.com/setup_8.x | bash -
@@ -17,8 +19,8 @@ curl -sL https://deb.nodesource.com/setup_8.x | bash -
 sudo apt update
 sudo apt upgrade -y
 
-sudo apt-get install -y sudo git nano wget curl ntp build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev git npm nodejs nodejs-legacy libminiupnpc-dev redis-server software-properties-common fail2ban libdb4.8-dev libdb4.8++-dev
-
+sudo apt install -y git nano wget curl ntp build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev git npm nodejs nodejs-legacy libminiupnpc-dev redis-server software-properties-common fail2ban libdb4.8-dev libdb4.8++-dev
+sudo apt install nodejs
 sudo systemctl enable fail2ban
 sudo systemctl start fail2ban
 
