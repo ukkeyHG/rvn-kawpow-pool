@@ -88,6 +88,11 @@ Other helpfull commands.
 ### Configure Pool
 
     cd /pool
+
+### Run Pool
+    
+    cd ~/rvn-kawpow-pool
+    ./pool-start.sh
     
 
 ### Donates
