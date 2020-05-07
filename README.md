@@ -36,7 +36,7 @@ Highly Efficient mining pool for Raven coin kawpow algo!
 
 -------
 
-### Install Coin daemon
+### Install Coin Daemon
 
     sudo su
     apt install wget
@@ -59,6 +59,8 @@ Highly Efficient mining pool for Raven coin kawpow algo!
     echo "prune=550" >> /root/.raven/raven.conf
     echo "daemon=1" >> /root/.raven/raven.conf
     ./ravend
+    ./raven-cli getaccountaddress ""
+Example output: RM8EnvWSBrNykMmo7E7Nco7noNMbAeAnmP
 
 ### Install Pool
 
