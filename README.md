@@ -59,7 +59,7 @@ https://www.youtube.com/watch?v=NOjPFZk4sp0
     ./ravend
     ./raven-cli getnewaddress
 
-Example output: RKopFydExeQXSZZiSTtg66sRAWvMzFReUj - it is the address of your pool, you need to remember it and specify it in the configuration files.
+Example output: RKopFydExeQXSZZiSTtg66sRAWvMzFReUj - it is the address of your pool, you need to remember it and specify it in the configuration file pool_configs/ravencoin.json.
     
     ./raven-cli getaddressesbyaccount ""
     
