@@ -29,7 +29,7 @@ Highly Efficient mining pool for Raven coin kawpow algo!
 ***NOTE:*** _These requirements will be installed in the install section!_<br />
 * Coin daemon(s)
 * Node Version Manager
-* Node 8.1.4 or higher
+* Node 8.1.4
 * Process Manager 2 / pm2
 * Redis Server
 * ntp
