@@ -80,9 +80,12 @@ Other helpfull commands.
 -------
 
 ### Install Pool
+    sudo su
     cd /pool
     git config --global http.https://gopkg.in.followRedirects true
     git clone https://github.com/notminerproduction/rvn-kawpow-pool.git
+    cd rvn-kawpow-pool/
+    ./install.sh
 
 -------
 ### Configure Pool
