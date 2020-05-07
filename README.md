@@ -249,7 +249,7 @@ Change "stratumHost": "192.168.0.200", to your IP or DNS in file config.json:
 
 ```
 
-Change "address": "RKopFydExeQXSZZiSTtg66sRAWvMzFReUj", to your pool created address wallet in file ravencoin.json:
+Change "address": "RKopFydExeQXSZZiSTtg66sRAWvMzFReUj", to your pool created wallet address in file ravencoin.json:
 
     cd ~/rnv-kawpow-pool/pool_configs
     nano ravencoin.json
