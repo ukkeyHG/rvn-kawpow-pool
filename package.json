@@ -37,7 +37,7 @@
     "dependencies": {
         "3.npm": "^1.0.0",
         "asn1": "^0.2.4",
-        "async": "^2.6.1",
+        "async": "^2.6.3",
         "bcrypt-pbkdf": "^1.0.2",
         "bignum": "^0.13.0",
         "bignumber.js": "^6.0.0",
@@ -72,10 +72,11 @@
         "request": "^2.88.0",
         "safe-buffer": "^5.1.2",
         "semver": "^5.7.1",
+        "sha3": "^2.1.2",
         "sma": "^0.1.1",
         "sshpk": "^1.15.2",
-        "stratum-pool": "git://github.com/EasyX-Community/node-stratum-pool.git",
-        "winston": "^3.1.0",
+        "stratum-pool": "git+https://github.com/RavenCommunity/kawpow-stratum-pool.git",
+        "winston": "^3.2.1",
         "winston-daily-rotate-file": "^3.5.1",
         "winston-transport": "^4.3.0"
     },
