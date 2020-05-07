@@ -8,6 +8,7 @@ echo "Installing... Please wait!"
 
 sleep 3
 
+sudo apt remove --purge -y nodejs
 sudo rm /etc/apt/sources.list.d/nodesource.list*
 sudo add-apt-repository -y ppa:chris-lea/redis-server
 sudo add-apt-repository -y ppa:bitcoin/bitcoin
