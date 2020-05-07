@@ -47,6 +47,7 @@ https://www.youtube.com/watch?v=NOjPFZk4sp0
     sudo apt install wget
     wget https://github.com/RavenProject/Ravencoin/releases/download/v4.1.0/raven-4.1.0.0-x86_64-linux-gnu.tar.gz
     tar -xf raven-4.1.0.0-x86_64-linux-gnu.tar.gz
+    rm raven*gz
     cd raven-4.1.0.0/bin
     mkdir -p ~/.raven/
     touch ~/.raven/raven.conf
