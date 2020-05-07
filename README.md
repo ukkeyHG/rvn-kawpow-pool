@@ -1,6 +1,5 @@
-# [EasyNOMP](https://github.com/EasyX-Community/EasyNOMP), a fork of [BootNOMP](https://github.com/1301313Y/BootNOMP) and [NOMP](https://github.com/zone117x/node-open-mining-portal)
-***Making it easy to install and configure NOMP!***<br />
-***Current Version: v1.1.4***
+# rvn-kawpow-pool
+Highly Efficient mining pool for Raven coin
 
 -------
 ### Screenshots
