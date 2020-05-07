@@ -41,28 +41,22 @@ https://www.youtube.com/watch?v=NOjPFZk4sp0
 
 ### Install Coin Daemon
 
-    sudo su
-    apt install wget
-    mkdir /pool && cd /pool
+    adduser pool
+    usermod -aG sudo pool
+    su - pool
+    sudo apt install wget
+    cd ~
     wget https://github.com/RavenProject/Ravencoin/releases/download/v4.1.0/raven-4.1.0.0-x86_64-linux-gnu.tar.gz
     tar -xf raven-4.1.0.0-x86_64-linux-gnu.tar.gz
     cd raven-4.1.0.0/bin
-    mkdir -p /root/.raven/
-    touch /root/.raven/raven.conf
-    echo "addnode = 74.56.255.125:8767" > /root/.raven/raven.conf
-    echo "addnode = 198.211.113.11:8767" >> /root/.raven/raven.conf
-    echo "addnode = 76.71.180.97:8767" >> /root/.raven/raven.conf
-    echo "addnode = 136.49.8.202:8767" >> /root/.raven/raven.conf
-    echo "addnode = 108.26.24.84:8767" >> /root/.raven/raven.conf
-    echo "addnode = 75.157.37.89:8767" >> /root/.raven/raven.conf
-    echo "addnode = 35.163.33.254:8767" >> /root/.raven/raven.conf
-    echo "addnode = 35.210.244.221:8767" >> /root/.raven/raven.conf
-    echo "rpcuser=user1" >> /root/.raven/raven.conf
-    echo "rpcpassword=pass1" >> /root/.raven/raven.conf
-    echo "prune=550" >> /root/.raven/raven.conf
-    echo "daemon=1" >> /root/.raven/raven.conf
+    mkdir -p ~/.raven/
+    touch ~/.raven/raven.conf
+    echo "rpcuser=user1" > ~/.raven/raven.conf
+    echo "rpcpassword=pass1" >> ~/.raven/raven.conf
+    echo "prune=550" >> ~/.raven/raven.conf
+    echo "daemon=1" >> ~/.raven/raven.conf
     ./ravend
-    ./raven-cli getaccountaddress ""
+    ./raven-cli getnewaddress
 
 Example output: REHwpWw297keLvyNx1Gqa4QatrXhyg5SPu - it is the address of your pool, you need to remember it and specify it in the configuration files.
     
@@ -80,8 +74,7 @@ Other helpfull commands.
 -------
 
 ### Install Pool
-    sudo su
-    cd /pool
+    cd ~
     git config --global http.https://gopkg.in.followRedirects true
     git clone https://github.com/notminerproduction/rvn-kawpow-pool.git
     cd rvn-kawpow-pool/
