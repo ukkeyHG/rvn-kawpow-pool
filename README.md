@@ -363,16 +363,4 @@ Change "address": "RKopFydExeQXSZZiSTtg66sRAWvMzFReUj", to your pool created wal
     cd ~/rvn-kawpow-pool
     ./pool-start.sh
     
-
-### Donates
-
-
-BTC: `1NRXddRwZSXVQ8NBdgiwv5DsJn2bmHenu6`
-
-LTC: `LcghtmAVSi94FHrn4xbbSd4nFChWy6QUng`
-
-ETH: `0x85c5e7db222705da939174cf435d8836423a03e8`
-
-ETC: `0xc8efe17161b98a5fd860e7e6e51d53083265d966`
-
 -------
