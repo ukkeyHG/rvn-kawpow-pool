@@ -62,7 +62,7 @@ Highly Efficient mining pool for Raven coin kawpow algo!
     ./raven-cli getaccountaddress ""
 
 Example output: RM8EnvWSBrNykMmo7E7Nco7noNMbAeAnmP
-!!!This will be the address of your pool's wallet. You need to remember it and specify it in the configuration files.
+The address of your pool. You need to remember it and specify it in the configuration files.
 
     ./raven-cli getwalletinfo
 Information about pool wallet address.
