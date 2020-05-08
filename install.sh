@@ -18,7 +18,7 @@ sudo add-apt-repository -y ppa:bitcoin/bitcoin
 sudo apt update
 sudo apt upgrade -y
 
-sudo apt install -y make gcc g++ git nano wget curl ntp build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev git libminiupnpc-dev redis-server software-properties-common fail2ban libdb4.8-dev libdb4.8++-dev
+sudo apt install -y screen make gcc g++ git nano wget curl ntp build-essential libtool autotools-dev autoconf pkg-config libssl-dev libboost-all-dev git libminiupnpc-dev redis-server software-properties-common fail2ban libdb4.8-dev libdb4.8++-dev
 sudo systemctl enable fail2ban
 sudo systemctl start fail2ban
 
