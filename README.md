@@ -80,7 +80,7 @@ Other helpfull commands.
 
 ### Install Pool
 
-    sudo apt install git
+    sudo apt install git -y
     cd ~
     git config --global http.https://gopkg.in.followRedirects true
     git clone https://github.com/notminerproduction/rvn-kawpow-pool.git
