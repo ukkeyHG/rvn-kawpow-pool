@@ -10,6 +10,7 @@
     "anonymizeips": true,
     "ipv4bits": 16,
     "ipv6bits": 16,
+    "poolwarningmsg": "",
     
      "defaultCoin": "ravencoin",
     
@@ -25,7 +26,7 @@
     "btcdonations": "1NRXddRwZSXVQ8NBdgiwv5DsJn2bmHenu6",
     "ltcdonations": "LcghtmAVSi94FHrn4xbbSd4nFChWy6QUng",
     "ethdonations": "0x85c5e7db222705da939174cf435d8836423a03e8",
-    "etcdonations": "0xc8efe17161b98a5fd860e7e6e51d53083265d966",
+    "xmrdonations": "4AVabKt1zGhUckqWC5DKtkcc49ChYFuSETzvDZFfVnUYYY5vC4CSZ9xYzmCWvx7ePYZ9YvxgYbYsLL1L9TfQy2hi5Awsc7d",
 
     "logger" : {
         "level" : "debug",
